@@ -1,9 +1,8 @@
 package com.assignments;
 
-public class AssignmentsDataType {
+public class Assignment1 {
 
 	public static void main(String[] args) {
-		
 		float temperature = 25.5f;
 		System.out.println(temperature);
 		
