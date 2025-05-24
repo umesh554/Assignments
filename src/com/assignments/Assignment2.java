@@ -5,9 +5,7 @@ public class Assignment2 {
 	// 1) Create a 3D array TO Represent DATA
 	
 	
-	/* 2) From the Array
-	 * Print Semester 3 - Suject4 and subject 5 Names.
-	 * Print Semester 5- Subject 3 and subject 6 marks */
+	
 
 	public static void main(String[] args) {
 		String [][][] ClassData = {
@@ -36,8 +34,14 @@ public class Assignment2 {
 				
 		};
 		
+		// 2) From the Array
+		//  Print Semester 3 - Suject4 and subject 5 Names.
+		 
 		System.out.println(ClassData[2][0][3]);
 		System.out.println(ClassData[2][0][4]);
+		
+		// Print Semester 5- Subject 3 and subject 6 marks 
+		
 		System.out.println(ClassData[4][0][2]);
 		System.out.println(ClassData[4][1][5]);
 				
